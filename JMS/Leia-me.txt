@@ -1,17 +1,11 @@
-﻿FORMA DE EXECUÇÃO:
-
-OpenJMS
-- dentro da pasta "\bin"
+﻿FORMA DE EXECUÇÃO do OpenJMS:
+ 
+1. Vá na pasta "\bin" e execute o serviço de acordo com seu SO:
 
 WINDOWS
-openjms admin (executa app de gerenciamento)
- [o próximo comando é opcional pois é possível tornar o serviço online através do próprio admin]
-openjms run (executa o middleware)
-
+2. openjms admin (executa app de gerenciamento) [o próximo comando é opcional pois é possível tornar o serviço online através do próprio admin]
+3. openjms run (executa o middleware)
 
 LINUX
-% sh openjms.sh admin (executa app de gerenciamento)
-
-
-% sh openjms.sh run (executa o middleware)
-
+2. % sh openjms.sh admin (executa app de gerenciamento)
+3. % sh openjms.sh run (executa o middleware)
